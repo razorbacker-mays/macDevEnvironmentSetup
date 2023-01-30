@@ -7,6 +7,7 @@ Notes on development environment setup on Macbook Pro
 - Xcode
   - Installed thru the App Store
   - Command Line tools installed based upon preferences in Xcode
+  - iOS simulator within Xcode
 - NodeJs
   - installed using Homebrew 
     - ```brew install node```
@@ -25,3 +26,14 @@ Notes on development environment setup on Macbook Pro
   - Ruby installation
     - Installations for Ruby build environment
       - ```brew install openssl@1.1 readline libyaml gmp       export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"```
+    - Ruby version install of 2.7.6
+      - ```rbenv install 2.7.6```
+    - Activate the Ruby version with rbenv
+      - ```rbenv global 2.7.6```
+        -  Close terminal window and open a new one
+        -  Verify the ruby version is now the version set by rbenv
+          -  ```ruby --version```  
+    - Install Bundler (https://bundler.io/)
+      - ```gem install bundler```
+    - Install CocoaPods (https://cocoapods.org/)
+      - 
