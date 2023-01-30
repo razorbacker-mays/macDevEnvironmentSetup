@@ -24,4 +24,5 @@ Notes on development environment setup on Macbook Pro
           - ```# Load rbenv automatically by appending # the following to ~/.zshrc: eval "$(rbenv init - zsh)"```
   - Ruby installation
     - Installations for Ruby build environment
-      - ```brew install openssl@1.1 readline libyaml gmp export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"```
+      - ```brew install openssl@1.1 readline libyaml gmp 
+     export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"```
