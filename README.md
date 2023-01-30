@@ -36,4 +36,4 @@ Notes on development environment setup on Macbook Pro
     - Install Bundler (https://bundler.io/)
       - ```gem install bundler```
     - Install CocoaPods (https://cocoapods.org/)
-      - 
+      - ```gem install cocoapods``` 
