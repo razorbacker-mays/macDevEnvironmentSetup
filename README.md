@@ -16,7 +16,7 @@ Notes on development environment setup on Macbook Pro
     - ```brew install watchman```
 - Ruby
   - Ruby version manager
-    - **rbenv** selected as the Ruby version manager
+    - **rbenv** selected as the Ruby version manager (https://github.com/rbenv/rbenv)
       - installed using Homebrew
         - ```brew install rbenv ruby-build```    
       - Load rbenv in your shell
