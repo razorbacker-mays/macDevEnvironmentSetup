@@ -18,3 +18,7 @@ Notes on development environment setup on Macbook Pro
     - **rbenv** selected as the Ruby version manager
       - installed using Homebrew
         - ```brew install rbenv ruby-build```    
+      - Load rbenv in your shell
+        - run this and follow the printed instructions:
+          - ```rbenv init```
+          - ```# Load rbenv automatically by appending # the following to ~/.zshrc: eval "$(rbenv init - zsh)"```
