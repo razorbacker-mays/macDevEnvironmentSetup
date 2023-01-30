@@ -7,4 +7,4 @@ Notes on development environment setup on Macbook Pro
 - NodeJs installed using Homebrew
   - ```brew install node```
 - WatchMan installed using Homebrew
--   ```brew install watchman```
+  - ```brew install watchman```
